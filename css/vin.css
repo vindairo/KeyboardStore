@@ -1,0 +1,84 @@
+html,body{
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 0.15em;
+	background-color: #0C0908;
+}
+#page{
+	max-width: 940px;
+	min-width: 720px;
+	margin: 30px auto 30px auto;
+	padding: 20px;
+	border: 4px double #ffffff;
+	box-shadow: 0px 0px 2px 2px #3bb143;
+	background-image: url("pics/pbg.jpg");
+	background-repeat: no-repeat, repeat;
+	background-size: 80%;
+	margin-top: 10%;
+}
+
+#logo h1 {
+  color: #CBC3E3;
+  font-size: 50px;
+  margin-left: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+	width: 400px;
+	margin: 40px auto 10px auto;
+	display: flex;
+}
+
+#logo img{
+  max-width: 50%;
+  min-width: 30%;
+  display: block;
+  
+}
+ul {
+	width: 550px;
+	padding: 20px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #fff;
+	border-bottom: 1px solid #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	box-shadow : 0px 0px 3px #c7ea46;
+	
+}
+li{
+	display: inline;
+	margin: 0px 3px;
+}
+p{
+	text-align: center;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	font-weight: normal;
+	color: #f0f0f0;
+	text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6 ;
+}
+a{
+	color: #3bb143;
+	text-shadow: 0px 0px 0px #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:10px 6px 10px;
+}
+
+p img {
+  max-width: 50%;
+  min-width: 30%;
+  text-align: center;
+  opacity: 70%;
+  border-radius: 2px;
+}
+
+a:hover, a.on{
+	color: #f0f0f0;
+	background-color: #ff7070;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px #ffeaea;
+}
